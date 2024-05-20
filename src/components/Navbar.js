@@ -20,7 +20,7 @@ const Navbar = () => {
             <Button color="inherit" component={Link} to="/about" sx={{ backgroundColor: location.pathname === '/about' ? 'secondary.main' : 'inherit' }}>About Us</Button>
             <Button color="inherit" component={Link} to="/events" sx={{ backgroundColor: location.pathname === '/events' ? 'secondary.main' : 'inherit' }}>Events</Button>
             <Button color="inherit" component={Link} to="/contact" sx={{ backgroundColor: location.pathname === '/contact' ? 'secondary.main' : 'inherit' }}>Contact Us</Button>
-            {/* <Button onClick={() => navigate('/login')} variant='contained'>Login</Button>     */}
+            <Button onClick={() => navigate('/login')} variant='contained'>Login</Button>    
              </Stack>
       </Stack>
     </Toolbar>
